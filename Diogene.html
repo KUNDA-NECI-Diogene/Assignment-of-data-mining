@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary of Introduction to Statistical Learning </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #343a40;
+      color: white;
+    }
+    h1, h2, h3 {
+      color: #343a40;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 10px 0;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .algo-list {
+      display: flex;
+      gap: 30px;
+    }
+    .algo-list ul {
+      list-style-type: square;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Introduction to Statistical Learning (Python Edition)</h1>
+    <p>Chapter Summaries and Notebook Links </p>
+  </header>
+
+  <section>
+    <h2>Overview</h2>
+    <p>
+      This book offers a modern introduction to statistical learning — a comprehensive collection of methods designed to extract meaningful patterns from complex data. Emphasizing both conceptual clarity and practical implementation, the book covers a wide range of tools including linear and logistic regression, classification, tree-based models, support vector machines, neural networks, and clustering. With each method, the authors provide both the theoretical motivation and real-world applications using Python, making this an ideal resource for students, researchers, and professionals seeking to apply machine learning in a rigorous yet approachable way.
+    </p>
+  </section>
+
+  <section>
+    <h2>Table of Contents</h2>
+    <nav>
+      <ul>
+        <li><a href="#chapter1">Chapter 1: Introduction</a></li>
+        <li><a href="#chapter3">Chapter 3: Linear Regression</a></li>
+        <li><a href="#chapter4">Chapter 4: Classification</a></li>
+        <li><a href="#chapter5">Chapter 5: Resampling Methods</a></li>
+        <li><a href="#chapter6">Chapter 6: Model Selection & Regularization</a></li>
+        <li><a href="#chapter8">Chapter 8: Tree-Based Methods</a></li>
+        <li><a href="#chapter9">Chapter 9: Support Vector Machines</a></li>
+        <li><a href="#chapter10">Chapter 10: Deep Learning</a></li>
+        <li><a href="#chapter12">Chapter 12: Unsupervised Learning</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="chapter1">
+    <h2>Chapter 1: Introduction</h2>
+    <p>The chapter introduces statistical learning as a field that bridges statistics and machine learning, focused on understanding and predicting data. It outlines the two main categories: supervised learning (which includes regression and classification) and unsupervised learning (such as clustering and dimension reduction). Real-world datasets such as wage data, gene expression data, and market trends are used to demonstrate the relevance of these techniques. It also emphasizes the importance of trade-offs between prediction accuracy and model interpretability.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Ch02-statlab.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter3">
+    <h2>Chapter 3: Linear Regression</h2>
+    <p>This chapter delves into simple and multiple linear regression as foundational methods for modeling relationships between a quantitative response and one or more predictors. Topics covered include least squares estimation, confidence intervals for coefficients, hypothesis testing, and model diagnostics like residual plots and leverage. The chapter also examines polynomial and interaction terms to model nonlinear relationships, and demonstrates how to assess model performance using R-squared and adjusted R-squared.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Ch03-linear%20regression.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter4">
+    <h2>Chapter 4: Classification</h2>
+    <p>This chapter focuses on predicting qualitative outcomes and introduces a range of classifiers. Logistic regression is presented as the primary tool, followed by linear and quadratic discriminant analysis (LDA & QDA), and Naive Bayes. The chapter also covers K-nearest neighbors (KNN) and compares classifiers using confusion matrices, error rates, and ROC curves. Emphasis is placed on choosing the right model depending on data structure, number of predictors, and class balance.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Chap4%20classification.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter5">
+    <h2>Chapter 5: Resampling Methods</h2>
+    <p>This chapter introduces techniques to evaluate model accuracy and prevent overfitting. It covers the validation set approach, leave-one-out cross-validation (LOOCV), k-fold cross-validation, and the bootstrap method. These approaches are used to estimate test error and select models that generalize well to new data. The concept of bias-variance trade-off is central to understanding how resampling helps in model assessment.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Resampling.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter6">
+    <h2>Chapter 6: Model Selection and Regularization</h2>
+    <p>In high-dimensional data settings, model selection and regularization are essential for improving prediction accuracy. This chapter explains best subset selection, forward and backward stepwise selection, ridge regression, lasso, and elastic net. It also introduces dimension reduction methods like principal component regression (PCR) and partial least squares (PLS). Each technique is evaluated based on bias-variance trade-offs and computational cost.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/linear%20model%20and%20reg.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter8">
+    <h2>Chapter 8: Tree-Based Methods</h2>
+    <p>This chapter explores decision trees as intuitive and flexible models for both regression and classification tasks. It explains how trees are built using recursive binary splitting and introduces pruning as a technique to avoid overfitting. Ensemble methods such as bagging, random forests, and boosting are presented as strategies to improve predictive performance and reduce variance. Tree-based methods offer natural handling of variable interactions and non-linear relationships.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Chap08-Decision%20Tree.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter9">
+    <h2>Chapter 9: Support Vector Machines</h2>
+    <p>This chapter introduces the concept of finding the optimal separating hyperplane for classification using support vector classifiers. It extends the idea with kernel functions to handle non-linear decision boundaries, and explains concepts like the margin, support vectors, and soft margin classifiers. SVMs are particularly effective in high-dimensional spaces and are widely used in text classification, image recognition, and bioinformatics.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Chap09-svm-lab.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter10">
+    <h2>Chapter 10: Deep Learning</h2>
+    <p>Deep learning is introduced through artificial neural networks (ANNs), starting from the basics of perceptrons to deep architectures. The chapter explains forward propagation, loss functions, backpropagation, and optimization via stochastic gradient descent. It covers activation functions, regularization (like dropout), and use cases such as image and text processing. The discussion extends to convolutional and recurrent networks for more complex data structures.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/labs/chapter10-deep-learning.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section id="chapter12">
+    <h2>Chapter 12: Unsupervised Learning</h2>
+    <p>This chapter deals with identifying structure in unlabeled data. It introduces clustering methods such as K-means and hierarchical clustering, and dimension reduction through principal component analysis (PCA). Applications include customer segmentation, gene expression analysis, and image compression. Key ideas include distance metrics, dendrograms, and eigenvalue decomposition.</p>
+    <a href="https://github.com/KUNDA-NECI-Diogene/Data-mining/blob/main/Ch12-unsupervised-method-lab.ipynb" target="_blank">GitHub Notebook</a>
+  </section>
+
+  <section>
+    <h2>Algorithms by Learning Type</h2>
+    <div class="algo-list">
+      <div>
+        <h3>Regression</h3>
+        <ul>
+          <li>Linear Regression</li>
+          <li>Ridge Regression</li>
+          <li>Lasso</li>
+          <li>Principal Component Regression</li>
+          <li>Random Forests</li>
+          <li>Support Vector Regression</li>
+          <li>Neural Networks</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Classification</h3>
+        <ul>
+          <li>Logistic Regression</li>
+          <li>Linear/Quadratic Discriminant Analysis</li>
+          <li>Naive Bayes</li>
+          <li>K-Nearest Neighbors</li>
+          <li>Support Vector Machines</li>
+          <li>Decision Trees</li>
+          <li>Neural Networks</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Unsupervised Learning</h3>
+        <ul>
+          <li>Principal Component Analysis (PCA)</li>
+          <li>K-Means Clustering</li>
+          <li>Hierarchical Clustering</li>
+          <li>Matrix Factorization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 | ISL Summary Page | Created by [Your Name]</p>
+  </footer>
+</body>
+</html>
